@@ -17,6 +17,7 @@
     <properties>
         <flowlogix.depchain.version>125</flowlogix.depchain.version>
         <shiro.version>3.0.0</shiro.version>
+        <mockito.agentOptions/>
         <checkstyle.suppressionsLocation>${maven.multiModuleProjectDirectory}/src/checkstyle/suppressions.xml</checkstyle.suppressionsLocation>
         <checkstyle.headerLocation>${maven.multiModuleProjectDirectory}/src/checkstyle/apache-header.txt</checkstyle.headerLocation>
         <maven.build.cache.enabled>false</maven.build.cache.enabled>
@@ -30,6 +31,12 @@
             <artifactId>unit-test</artifactId>
             <version>${flowlogix.depchain.version}</version>
             <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.mockito</groupId>
+                    <artifactId>*</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -39,7 +46,7 @@
 
         <dependency>
             <groupId>org.apache.shiro</groupId>
-            <artifactId>shiro-jakarta-ee</artifactId>
+            <artifactId>shiro-web</artifactId>
             <version>${shiro.version}</version>
         </dependency>
         <dependency>
