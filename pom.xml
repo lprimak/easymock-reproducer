@@ -15,7 +15,7 @@
     </parent>
 
     <properties>
-        <flowlogix.depchain.version>127</flowlogix.depchain.version>
+        <flowlogix.depchain.version>128</flowlogix.depchain.version>
         <shiro.version>3.0.0</shiro.version>
         <mockito.agentOptions/>
         <checkstyle.suppressionsLocation>${maven.multiModuleProjectDirectory}/src/checkstyle/suppressions.xml</checkstyle.suppressionsLocation>
