@@ -16,7 +16,7 @@
 
     <properties>
         <flowlogix.depchain.version>130</flowlogix.depchain.version>
-        <shiro.version>3.0.0</shiro.version>
+        <shiro.version>3.0.1</shiro.version>
         <mockito.agentOptions/>
         <checkstyle.suppressionsLocation>${maven.multiModuleProjectDirectory}/src/checkstyle/suppressions.xml</checkstyle.suppressionsLocation>
         <checkstyle.headerLocation>${maven.multiModuleProjectDirectory}/src/checkstyle/apache-header.txt</checkstyle.headerLocation>
