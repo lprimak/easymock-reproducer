@@ -11,11 +11,11 @@
     <parent>
         <groupId>com.flowlogix</groupId>
         <artifactId>infra-pom</artifactId>
-        <version>149</version>
+        <version>150</version>
     </parent>
 
     <properties>
-        <flowlogix.bom.version>56</flowlogix.bom.version>
+        <flowlogix.bom.version>57</flowlogix.bom.version>
         <flowlogix.depchain.version>135</flowlogix.depchain.version>
         <shiro.version>3.0.2</shiro.version>
         <mockito.agentOptions/>
